@@ -1,7 +1,7 @@
 {
-  "name": "@hejguide/mcp-base",
+  "name": "nc-mcp-base",
   "version": "0.1.0",
-  "description": "Shared base package for hejGuide MCP servers — transport scaffolding (stdio + Streamable HTTP), Nextcloud OIDC auth middleware, deployment templates.",
+  "description": "Nextcloud-OIDC auth + transport scaffolding for self-hosted MCP servers. Drop in stdio + Streamable HTTP transport, OAuth metadata, and Bearer middleware that validates against any Nextcloud instance.",
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -30,5 +30,18 @@
   },
   "engines": {
     "node": ">=20"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joepherrmann/nc-mcp-base.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "nextcloud",
+    "oauth",
+    "oidc",
+    "streamable-http"
+  ]
 }
